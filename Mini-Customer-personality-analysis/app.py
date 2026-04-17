@@ -174,7 +174,7 @@ st.markdown(
 )
 
 # ✅ FIXED PATH (important for deployment)
-data_file = "marketing_campaign.csv"
+data_file = "Mini-Customer-personality-analysis/Data/marketing_campaign.csv"
 
 try:
     df, model, X_full, shap_values, global_importance, accuracy, auc = train_pipeline(data_file)
